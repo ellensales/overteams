@@ -20,6 +20,12 @@ export const Form = (props) => {
             sup1, 
             sup2
         })
+        
+        setTank('')
+        setDps1('')
+        setDps2('')
+        setSup1('')
+        setSup2('')
     }
 
     return (
