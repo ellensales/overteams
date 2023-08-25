@@ -1,7 +1,12 @@
-.squad h1{
-    margin-top: 50px;
-    font-size: 46px;
+.squad.title{
+    margin-top: 20px;
+    font-size: 64px;
     font-family: 'Bebas Neue', sans-serif;
+}
+
+.squad h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
 }
 
 
