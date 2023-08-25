@@ -1,0 +1,13 @@
+.button{
+    color: #fff;
+    background-color: #FF7A00;
+    border: none;
+    border-radius: 40px;
+    padding: 15px;
+    font-size: 36px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.button:hover{
+    background-color: #FB9B50;
+}

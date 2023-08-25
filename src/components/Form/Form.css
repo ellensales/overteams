@@ -1,0 +1,35 @@
+.register{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1, h2{
+    color: #FF7A00;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size:39px;
+}
+
+form{
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 30px;
+    width: 75%;
+    height: 50%;
+    margin: auto;
+}
+.fill{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.button{
+    
+    align-self:last baseline;
+}
