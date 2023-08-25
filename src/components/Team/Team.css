@@ -1,10 +1,21 @@
-.team div{
+.team.section{
+    
+    padding: 40px;
+    margin: 30px;
+    background-color:#D9D9D9;
+    border-radius: 20px;
+}
+
+.roles{
+    font-size: 36px;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin: auto;
-    border-radius: 15px;
-    width: 75%;
-    background-color: #D9D9D9;
-    padding: 15px;
+    justify-content: space-evenly;
+}
+.nicknames{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }

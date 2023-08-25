@@ -10,7 +10,6 @@ function App() {
   const addedSquad = (squad) => {
     console.log(squad)
     setSquads([...squads, squad])
-    console.log(squads)
   }
 
   return (
