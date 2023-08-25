@@ -7,7 +7,7 @@ export const Squad = (props) => {
     
     return(
         <section className="squad">
-            <h1>Squads</h1>
+            <h1 className="squad title">Squads</h1>
             <div className="team list">
                 {props.squads.map(squad => <Team team={squad}/>)}
             </div>
