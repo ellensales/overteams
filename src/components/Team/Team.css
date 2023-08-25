@@ -1,21 +1,17 @@
 .team.section{
-    
     padding: 40px;
     margin: 30px;
     background-color:#D9D9D9;
     border-radius: 20px;
 }
 
-.roles{
+.roles.item {
     font-size: 36px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
 }
-.nicknames{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+
+.roles, .nicknames{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
 }

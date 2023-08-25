@@ -8,18 +8,18 @@ export const Team = (props) => {
     return(
         <section className="team section">
             <div className="roles">
-                <h1>Tank</h1>
-                <h1>DPS1</h1>
-                <h1>DPS2</h1>
-                <h1>Sup1</h1>
-                <h1>Sup2</h1>
+                <h1 className="item">Tank</h1>
+                <h1 className="item">DPS1</h1>
+                <h1 className="item">DPS2</h1>
+                <h1 className="item">Sup1</h1>
+                <h1 className="item">Sup2</h1>
             </div>    
             <div className="nicknames">
-                <Nickname nickname={props.team.tank}/>
-                <Nickname nickname={props.team.dps1}/>
-                <Nickname nickname={props.team.dps2}/>
-                <Nickname nickname={props.team.sup1}/>
-                <Nickname nickname={props.team.sup2}/>
+                <Nickname className="item" nickname={props.team.tank}/>
+                <Nickname className="item" nickname={props.team.dps1}/>
+                <Nickname className="item" nickname={props.team.dps2}/>
+                <Nickname className="item" nickname={props.team.sup1}/>
+                <Nickname className="item" nickname={props.team.sup2}/>
             </div>
         </section>
     )
